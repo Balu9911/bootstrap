@@ -1,30 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./durr.css">
 </head>
+
 <body>
     <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
-     <a href="./index1.html" class="navbar-brand">LOGO</a>
-     <div class="ml-auto">
-        <ul class="navbar-nav">
-            <li><a href="./index1.html" class="nav-link">Home</a></li>
-            <li><a href="./about.html" class="nav-link">About</a></li>
-            <li><a href="./services.html" class="nav-link">Services</a></li>
-            <li><a href="./prodcts.html" class="nav-link">Products</a></li>
-            <li><a href="./employees.html" class="nav-link">Employees</a></li>
-            <li><a href="./contact.html" class="nav-link">Contact</a></li>
-            <li><a href="./login.html" class="nav-link">Login</a></li>
-        </ul>
-     </div>
-        
+        <a href="./index1.html" class="navbar-brand">LOGO</a>
+        <div class="ml-auto">
+            <ul class="navbar-nav">
+                <li><a href="./index1.html" class="nav-link">Home</a></li>
+                <li><a href="./about.html" class="nav-link">About</a></li>
+                <li><a href="./services.html" class="nav-link">Services</a></li>
+                <li><a href="./prodcts.html" class="nav-link">Products</a></li>
+                <li><a href="./employees.html" class="nav-link">Employees</a></li>
+                <li><a href="./contact.html" class="nav-link">Contact</a></li>
+                <li><a href="./login.html" class="nav-link">Login</a></li>
+            </ul>
+        </div>
+
     </nav>
     <div>
         <h3>Contact Page</h3>
     </div>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <!--Contact Page-->
+                <form action="">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input type="text" placeholder="Name" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input type="email" placeholder="Email" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-4 form-group">
+                            <label>Phone</label>
+                            <input type="number" placeholder="Phone number" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="form-group">
+                                <label>Subject</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="form-group">
+                                <label>Services</label>
+                                <select class="form-control">
+                                    <option value="">--Select One--</option>
+                                    <option value="">web app</option>
+                                    <option value="">mobile app</option>
+                                    <option value="">hybrid app</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label>Message</label>
+                                <textarea name="" id="" rows="3"  class="form-control"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-6">
+                <!--Google Map-->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.243408777153!2d77.53881917484338!3d13.083754187242038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae22937063bb21%3A0xf494764a90ebe425!2sSMR%20Vinay%20Estella!5e0!3m2!1sen!2sin!4v1724905800230!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>
